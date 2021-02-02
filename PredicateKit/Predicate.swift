@@ -619,8 +619,8 @@ extension Set: AnyArrayOrSet {
 extension NSSet: AnyArrayOrSet {
 }
 
-extension Optional: AnyArrayOrSet where Wrapped: AnyArrayOrSet {
-}
+//extension Optional: AnyArrayOrSet where Wrapped: AnyArrayOrSet {
+//}
 
 public protocol AnyArray {
   associatedtype Element
